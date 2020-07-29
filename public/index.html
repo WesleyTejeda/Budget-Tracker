@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
-
+  <link rel="manifest" href="manifest.webmanifest">
   <link rel="stylesheet" href="styles.css">
 
   <title>Budget Tracker</title>
@@ -43,11 +43,11 @@
     <canvas id="myChart"></canvas>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <script src="index.js"></script>
+  <script src="/index.js"></script>
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
-        navigator.serviceWorker.register("service-worker.js").then(reg => {
+        navigator.serviceWorker.register("/service-worker.js").then(reg => {
           console.log("We found your service worker file!", reg);
         });
       });

@@ -1,7 +1,7 @@
 # Budget-Tracker
 By ```Wesley Tejeda``` <br>
-Repository Link: https://github.com/wesleytejeda/Workout-Tracker <br>
-Deployed Link: https://complete-workout-tracker.herokuapp.com/
+Repository Link: https://github.com/wesleytejeda/Budget-Tracker <br>
+Deployed Link: https://total-budget-tracker.herokuapp.com/
 ## Demo
 <img alt="Demo of Budget Tracker" src="./public/images/Budget-Tracker-Demo.gif" style="width: 100%"/>
 ## Description
